@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Assignment6</string>
+    <string-array name="items">
+        <item>Pakistan</item>
+        <item>China</item>
+        <item>Bangladesh</item>
+        <item>Nipal</item>
+        <item>Capital</item>
+        <item>See</item>
+        <item>Panjab</item>
+        <item>Oman</item>
+    </string-array>
+</resources>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/lblName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name :"
+        android:layout_alignBaseline="@id/txtName"/>
+
+    <EditText
+        android:id="@+id/txtName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:layout_toRightOf="@id/lblName"/>
+
+    <TextView
+        android:id="@+id/lblHP"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Home Plant :"
+        android:layout_alignBaseline="@id/txtHP"
+        android:layout_below="@id/lblName"/>
+
+    <EditText
+        android:id="@+id/txtHP"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:layout_toRightOf="@id/lblHP"
+        android:layout_below="@id/txtName"/>
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" Are You An Android Programmer?"
+        android:layout_centerInParent="true"
+        android:layout_below="@id/txtHP"/>
+
+    <TextView
+        android:id="@+id/lblFav"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Favorite Food :"
+        android:layout_alignBaseline="@id/txtFav"
+        android:layout_below="@id/checkBox"/>
+
+    <EditText
+        android:id="@+id/txtFav"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/checkBox"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_toRightOf="@id/lblFav"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/btnForm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Do Something Useful With This Data"
+        android:layout_below="@id/txtFav"/>
+
+</RelativeLayout>
