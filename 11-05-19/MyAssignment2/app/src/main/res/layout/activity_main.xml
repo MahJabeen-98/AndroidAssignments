@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/lblNameForm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name :"
+        android:layout_alignBaseline="@id/txtNameForm"/>
+    <EditText
+        android:id="@+id/txtNameForm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:layout_toRightOf="@id/lblNameForm"/>
+    <TextView
+        android:id="@+id/lblphone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Phone:"
+        android:layout_alignBaseline="@id/txtPhone"
+        android:layout_below="@id/lblNameForm"/>
+    <EditText
+        android:id="@+id/txtPhone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:layout_toRightOf="@id/lblphone"
+        android:layout_below="@id/txtNameForm"/>
+    <CheckBox
+        android:id="@+id/checkBoxForm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/checkBox"
+        android:layout_centerInParent="true"
+        android:layout_below="@id/txtPhone"
+        android:onClick="onCheckBoxClick"/>
+
+    <Button
+        android:id="@+id/btnFormOk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ok"
+        android:layout_below="@id/checkBoxForm"
+        android:layout_toLeftOf="@id/btnFormCancel"/>
+
+    <Button
+        android:id="@+id/btnFormCancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cancel"
+        android:layout_below="@id/checkBoxForm"
+        android:layout_alignParentRight="true"/>
+
+    <TextView
+        android:id="@+id/txtshowform"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnFormCancel"
+        android:layout_centerInParent="true" />
+
+</RelativeLayout>

@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Assignment1</string>
+    <string name="lblName">Name :</string>
+    <string name="lblHP">Home Plant :</string>
+    <string name="checkBox"> Are You An Android Programmer?</string>
+    <string name="lblFav">Favorite Food :</string>
+    <string name="btnForm">Do Something Useful With This Data </string>
+    //calculator buttons
+    <string name="btn1">1</string>
+    <string name="btn2">2</string>
+    <string name="btn3">3</string>
+    <string name="btn4">4</string>
+    <string name="btn5">5</string>
+    <string name="btn6">6</string>
+    <string name="btn7">7</string>
+    <string name="btn8">8</string>
+    <string name="btn9">9</string>
+    <string name="btn0">0</string>
+    <string name="btndevide">/</string>
+    <string name="btndot">.</string>
+    <string name="btnmultiply">*</string>
+    <string name="btnequal">=</string>
+    <string name="btnminus">-</string>
+    <string name="btnplus">+</string>
+    <string name="btnclear">Clear</string>
+</resources>

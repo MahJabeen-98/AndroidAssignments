@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Select CheckBox</string>
+    <string-array name="items">
+        <item>Ali</item>
+        <item>Haider</item>
+        <item>Azan</item>
+        <item>Zuneel</item>
+        <item>Osama</item>
+        <item>Areeb</item>
+        <item>Jaboo</item>
+        <item>MahJabeen</item>
+    </string-array>
+</resources>
